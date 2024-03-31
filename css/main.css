@@ -3,3 +3,46 @@
     margin:0;
     box-sizing:border-box;
 }
+
+p{
+    width: 500px;
+    font-size: 14pt;
+    visibility: hidden;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: lowercase;
+    margin-top: 10%;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: lowercase;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+h3{
+    text-align: center;
+    letter-spacing: 3px;
+    
+}
+
+textPath{
+    fill: tomato;
+    font-size: 0.8rem;
+    /* letter-spacing: 0.1rem; */
+}
+/* doesn't work rn */
+
+
+
+path{
+    stroke: black;
+    visibility: hidden;
+}
