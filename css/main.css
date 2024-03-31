@@ -40,6 +40,11 @@ textPath{
 }
 /* doesn't work rn */
 
+.curves:hover textPath{
+    fill: rgb(205, 78, 56);
+    font-size: 1.3rem;
+    transition: 0.3s;
+  }
 
 
 path{
