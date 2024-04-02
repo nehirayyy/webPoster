@@ -13,12 +13,7 @@
     height: 150%;
     z-index: 3;
 }
-p{
-    width: 500px;
-    font-size: 14pt;
-    visibility: hidden;
-    z-index: 2;
-}
+
 
 h1{
     font-family: 'Times New Roman', Times, serif;
@@ -30,12 +25,21 @@ h1{
     position: relative;
     background-color: transparent;
     z-index: 3;
+
+    color: tomato;
+    filter: drop-shadow(2px 2px 2px red);
 }
 
-    h1:hover{
+    /* h1:hover{
         color: tomato;
         filter: drop-shadow(2px 2px 2px red);
-    }
+    } */
+
+    /* #titles:hover .spotlight{
+        width: 50px;
+        height: 50px;
+        transition: 0.3s;
+    } GONNA TRY THIS IN JS INSTEAD*/
 
 h2{
     font-family: 'Times New Roman', Times, serif;
@@ -52,11 +56,23 @@ h2{
 
 h3{
     text-align: center;
-    letter-spacing: 3px;
-    
+    letter-spacing: 3px; 
+} 
+/* I DON'T THINK THESE EXIST ANYMORE */
+
+
+.date, .time, .location, .info{
+    color: lavender;
+    z-index: 5;
+    position: relative;
+    background-color: transparent;
 }
 
-textPath{
+.external_links{
+    visibility: hidden;
+}
+
+.curveText{
     fill: tomato;
     font-size: 0.5rem;
     z-index: 3;
@@ -71,11 +87,13 @@ textPath{
     transition: 0.3s;
   }
 
-svg{
+.curves{
     z-index: 5;
     position: relative;
     background-color: transparent;
-    margin-bottom: -2rem;
+    padding-top: 100px;
+    margin-top: -100rem;
+    margin-bottom: 5rem;
 }
 
 path{
@@ -85,12 +103,60 @@ path{
     z-index: 3;
 }
 
-.spotlight{
+.curvesDate{
+    z-index: 4;
+    position: relative;
+    background-color: transparent;
+    bottom: 100em;
+    /* margin-left: -8.2rem;
+     */
+}
+
+.curveDateText{
+    fill: lavender;
+    font-size: 0.5rem;
+    z-index: 3;
+    position: fixed;
+    /* letter-spacing: 0.1rem; */
+}
+
+.curvesTime{
+    z-index: 4;
+    position: relative;
+    background-color: transparent;
+    bottom: 135em;
+    /* margin-left: -8.2rem;
+     */
+}
+
+.curvesLocation{
+    z-index: 4;
+    position: relative;
+    background-color: transparent;
+    bottom: 170em;
+    /* margin-left: -8.2rem;
+     */
+}
+
+#AntherBio{
+    color: lavender;
+    font-size: 17pt;
+    max-width: 810px;
+    position: relative;
+    z-index: 7;
+    left: 50%;
+    line-height: 23pt;
+}
+
+
+/* .spotlight{
     width: 15rem;
     height: 10rem;
     background-color:antiquewhite;
     border-radius: 50%;
     position: absolute;
-    z-index: 3;;
+    z-index: 3;
+    padding-top: 100px;
+    margin-bottom: 100rem;
     transform: translate(-50%, -50%);
-}
+} */
