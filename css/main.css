@@ -2,20 +2,20 @@
     padding:0;
     margin:0;
     box-sizing:border-box;
-    background-color: black;
+    background-color: tomato;
     z-index: 2;
 }
 
 #everythang{
-    background-color: black;
+    background-color: tomato;
     position: absolute;
     width: 100%;
     height: 150%;
     z-index: 3;
 }
 
+header{
 
-h1{
     font-family: 'Times New Roman', Times, serif;
     font-size: 5rem;
     text-align: center;
@@ -26,43 +26,17 @@ h1{
     background-color: transparent;
     z-index: 3;
 
-    color: tomato;
+    color: rgb(0, 0, 0);
     filter: drop-shadow(2px 2px 2px red);
 }
 
-    /* h1:hover{
-        color: tomato;
-        filter: drop-shadow(2px 2px 2px red);
-    } */
 
-    /* #titles:hover .spotlight{
-        width: 50px;
-        height: 50px;
-        transition: 0.3s;
-    } GONNA TRY THIS IN JS INSTEAD*/
 
-h2{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 3rem;
-    text-align: center;
-    letter-spacing: 3px;
-    text-transform: lowercase;
-    margin-top: 5%;
-    margin-bottom: 10%;
-    z-index: 5;
-    position: relative;
-    background-color: transparent;
-}
 
-h3{
-    text-align: center;
-    letter-spacing: 3px; 
-} 
-/* I DON'T THINK THESE EXIST ANYMORE */
 
 
 .date, .time, .location, .info{
-    color: lavender;
+    color: black;
     z-index: 5;
     position: relative;
     background-color: transparent;
@@ -73,7 +47,7 @@ h3{
 }
 
 .curveText{
-    fill: tomato;
+    fill: black;
     font-size: 0.5rem;
     z-index: 3;
     position: fixed;
@@ -82,7 +56,7 @@ h3{
 /* doesn't work rn */
 
 .curves:hover textPath{
-    fill: rgb(205, 78, 56);
+    fill: black(205, 78, 56);
     font-size: 1.3rem;
     transition: 0.3s;
   }
@@ -113,7 +87,7 @@ path{
 }
 
 .curveDateText{
-    fill: lavender;
+    fill: black;
     font-size: 0.5rem;
     z-index: 3;
     position: fixed;
@@ -139,7 +113,7 @@ path{
 }
 
 #AntherBio{
-    color: lavender;
+    color: black;
     font-size: 17pt;
     max-width: 800px;
     position: relative;
