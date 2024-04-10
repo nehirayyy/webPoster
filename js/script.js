@@ -11,18 +11,11 @@ $(document).ready(function() {
         })
  
     });
-  
-
-
-
-    // $('h1').hover(
-    //     function() {
-    //         $('.spotlight').css({ width: '15rem', height: '50px', transform: 'rotate(90deg)', 'transform-origin': '20% 40%'});
-    //     },
-    //     function() {
-    //         $('.spotlight').css({ width: '15rem', height: '10rem' });
-    //     }
-    // );   NVM LET'S DO THIS ONCE I FIGURE OUT THE DIDACTICS
+    
+    
+    $("header").click(function(){
+        $(".date, .time, .location, .info, a").toggleClass("show");
+      });
 
 });
 console.log("lets see if this remains in your code")
