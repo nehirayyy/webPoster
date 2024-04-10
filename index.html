@@ -18,7 +18,7 @@
     <div id="speakers">
       <div class="event" id="anther_kiley">
           <div id="AnthersName">
-              <svg class="curves" viewBox="0 0 500 170" style=" margin-top: -20rem; margin-bottom: 65rem"> 
+              <svg class="curves" viewBox="0 0 500 170"> 
               
                 <path id="curve1" fill="transparent"
                 d="
@@ -37,9 +37,9 @@
             <!-- SAMPLE SVG -->
             </div>
             <div id="AntherDidactics">
-             <!-- ADD DATE -->
-                  <!-- ADD TIME -->
-                      <!-- ADD LOCATION -->
+              <div class="date">September 25, 2023</div>
+              <div class="time">3:10pm</div>
+              <div class="location">100 McCaul St., Room 230</div>
           <div class="info" id="AntherBio">
             <p> Anther Kiley is a designer, artist, and educator living and practicing in Providence, RI. He teaches in the graphic design department at RISD while maintaining a professional graphic design practice and a robust studio art practice. If that’s not enough he also runs Card Kits—a line of sustainable architectural children’s toys inspired by own childhood. His work explores the symbolic and poetic aspects of functionalist forms in the built environment through sculpture, photography, digital image making, and collage. </p>
             <div class="external_links">
@@ -49,11 +49,27 @@
         </div>
       </section>
       <section class="curves" class="event" id="takahashi_kuan">
+        <svg class="curves" viewBox="0 0 500 170"> 
+          <!-- this viewBox might become an issue, try to do it with PERCENTAGES, nvm it's svg -->
+          <path id="curve4" fill="transparent"
+          d="
+          M 50, 0
+          C 50,100
+          450, 100
+          450, 0
+          "  
+          />
+          <text width="1000"  textLength="280">
+            <textPath xlink:href="#curve4" class="curveText" startOffset="50%" text-anchor="middle">
+              Emi Takahashi & Michelle Kuan
+            </textPath>
+          </text>
+        </svg>
             <!-- ADD NAME -->
-        <div class="date">October 23, 2023</div>
-        <div class="time">3:10pm</div>
-        <div class="location">100 McCaul St., Room 230</div>
-        <div class="info" class="even">
+        <div class="date" id="takahashi_kuan_date">October 23, 2023</div>
+        <div class="time" id="takahashi_kuan_time">3:10pm</div>
+        <div class="location" id="takahashi_kuan_loc">100 McCaul St., Room 230</div>
+        <div class="info" class="even" id="takahashi_kuan_info">
           <p> Emi Takahashi is an artist and graphic designer based in Toronto. Her practice involves experimenting with alternative & analog forms of image-making, glyph & type design, archival projects, and multidisciplinary collaborations. Michelle Kuan is a Chinese Canadian artist, designer, and writer based in Montréal. Working between social practice, digital arts, and experimental publishing, she explores novel ways of documenting personal and collective narratives, the power of somatic memory, and decolonial archival futures. Their research laden practices operate both individually and collectively to create a mix of client-based and self-initiated work such as their here-there stories project devoted to collecting the stories of the asian canadian diaspora. </p>
           <div class="external_links">
             <a href="https://emitakahashi.ca/" target="_blank">emitakahashi.ca</a>
@@ -62,7 +78,22 @@
       </section>
       </p>
       <section class="event" id="e_roon_kang">
-       
+        <svg class="curves" viewBox="0 0 500 170"> 
+              
+          <path id="curve1" fill="transparent"
+          d="
+          M 50, 0
+          C 50,100
+          450, 100
+          450, 0
+          "  
+          />
+          <text width="1000"  textLength="150">
+            <textPath xlink:href="#curve1" class="curveText" startOffset="50%" text-anchor="middle">
+              E. Roon Kang
+            </textPath>
+          </text>
+        </svg>
            <!-- ADD NAME -->
         <div class="date">November 13, 2023</div>
         <div class="time">3:10pm</div>
@@ -93,10 +124,10 @@
                 </textPath>
               </text>
             </svg>
-        <div class="date">December 4, 2023</div>
-        <div class="time">3:10pm</div>
-        <div class="location">100 McCaul St., Room 230</div>
-        <div class="info" class="even">
+        <div class="date" id="sebastian_aubin_date">December 4, 2023</div>
+        <div class="time" id="sebastian_aubin_time">3:10pm</div>
+        <div class="location" id="sebastian_aubin_loc">100 McCaul St., Room 230</div>
+        <div class="info" class="even" id="sebastian_aubin_info">
           <p> Aubin has done publications for numerous artists, organizations and art galleries in Winnipeg, Montréal and Ottawa, including Plug In ICA Close Encounters, the next 500 years, Terrance Houle, KC Adams, Carleton University Art Gallery, Thunder Bay Art Gallery, and Art Gallery of South Western Manitoba. Aubin is one of the founding members of the ITWÉ collective that is dedicated to research, creation, production and education of Aboriginal digital culture. Currently based in Montréal, QC, Sébastien Aubin is a proud member of the Opaskwayak Cree Nation in Manitoba. </p>
           <div class="external_links">
             <a href="https://saubin.ca" tagret="_blank">saubin.ca</a>
