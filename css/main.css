@@ -17,7 +17,7 @@
 #title{
 
     font-family: 'Times New Roman', Times, serif;
-    font-size: 5rem;
+    font-size: 5.3rem;
     text-align: center;
     letter-spacing: 3px;
     text-transform: lowercase;
@@ -33,12 +33,12 @@
 }
 
 #subtitle{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.5rem;
     text-align: center;
     letter-spacing: 3px;
     text-transform: lowercase;
-    margin-top: 0%;
+    margin-top: 3%;
     position: relative;
     background-color: transparent;
     z-index: 3;
@@ -64,9 +64,8 @@
     z-index: 5;
     position: relative;
     background-color: transparent;
-    /* padding-top: 100px;
-    margin-top: -100rem;
-    margin-bottom: 5rem; */
+    margin-bottom: -10%;
+    margin-top: 4%;
 }
 
 path{
@@ -106,9 +105,15 @@ path{
     }
 
     .date, .time, .location{
-        font-size: 4.2vmin;
+        font-size: 4vmin;
         margin-left: 2%;
+        font-family: Arial, Helvetica, sans-serif;
     }
+
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.6vh;
+}
 
 
 /* .spotlight{
@@ -132,7 +137,7 @@ path{
     }
 
     .curveText{
-        font-size: 1.2rem;
+        font-size: 1.6rem;
     }
 }
 
@@ -146,12 +151,16 @@ path{
         margin-right: 3%;
     }
     #subtitle{
-        font-size: 27pt;
+        font-size: 25pt;
         letter-spacing: 1.5px;
     }
     .info {
         font-size: 16.5pt;
         line-height: 20pt;
+    }
+
+    a{
+        font-size: 14.5pt;
     }
 
 
