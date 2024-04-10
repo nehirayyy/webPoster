@@ -13,9 +13,9 @@ $(document).ready(function() {
     });
     
     
-    $("header").click(function(){
-        $(".date, .time, .location, .info, a").toggleClass("show");
+    $("#AnthersName").click(function(){
+        $("#AntherDidactics").addClass("show");
+        console.log("lets see if this remains in your code");
       });
 
 });
-console.log("lets see if this remains in your code")
